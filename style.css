@@ -1,0 +1,18 @@
+
+:root{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#262218;background:#fbf8f0;line-height:1.7}
+*{box-sizing:border-box}body{margin:0}a{color:#714812}a:hover{color:#a66918}
+.wrap{max-width:1160px;margin:auto;padding:0 24px}.top{background:#211c16;color:#fff;position:sticky;top:0;z-index:2}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:70px}.top a{color:#fff;text-decoration:none}
+.brand{font-family:Georgia,serif;font-weight:bold;font-size:1.4rem;letter-spacing:.02em}.top nav{display:flex;gap:20px;font-size:.92rem}
+.hero{min-height:500px;background:linear-gradient(90deg,rgba(24,18,12,.86),rgba(24,18,12,.26)),url('miod-lesny-ze-spadzia-1.png') center 47%/cover;display:flex;align-items:center;color:#fff}
+.hero .wrap{width:100%}.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:#e9b75c;font-size:.78rem;font-weight:700}
+h1,h2,h3{font-family:Georgia,serif;line-height:1.18}h1{font-size:clamp(2.8rem,6vw,5.6rem);max-width:770px;margin:15px 0}h2{font-size:2.2rem}h3{font-size:1.35rem}
+.hero p{max-width:590px;font-size:1.14rem}.button{display:inline-block;background:#c9943d;color:#211c16;padding:12px 24px;border-radius:100px;text-decoration:none;font-weight:700;margin-top:16px}.button:hover{background:#e5ac4c;color:#211c16}
+main{padding:65px 0 90px}.intro{max-width:760px;margin-bottom:42px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.card{background:#fff;border:1px solid #e7dfcf;border-radius:18px;overflow:hidden;box-shadow:0 12px 32px rgba(60,45,20,.06)}.card img{width:100%;height:280px;object-fit:cover;display:block}.card .content{padding:25px}.card h3{margin:8px 0}.card a{text-decoration:none}.card .more{font-weight:700}
+.article-hero{height:370px;background-size:cover;background-position:center;display:flex;align-items:end;color:#fff}.article-hero .wrap{width:100%;padding-bottom:30px}.article-hero h1{font-size:clamp(2.5rem,5vw,4.5rem)}
+.article{max-width:780px;margin:65px auto 100px;padding:0 24px;font-size:1.08rem}.article h2{font-size:1.75rem;margin-top:40px}.article p{margin:0 0 23px}
+.back{display:inline-block;margin-bottom:28px;text-decoration:none;font-weight:700}.notice{background:#f3ebda;border-left:4px solid #c9943d;padding:17px 21px;margin-top:42px}
+footer{background:#211c16;color:#d7cbb9;padding:40px 0}footer a{color:#f1c87b}footer .wrap{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.top .wrap{flex-wrap:wrap;padding-top:12px;padding-bottom:12px}.top nav{font-size:.8rem;gap:12px}.hero{min-height:490px}.card img{height:240px}footer .wrap{display:block}}
+
